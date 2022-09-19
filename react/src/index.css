@@ -1,0 +1,89 @@
+body {
+
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	direction: rtl;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.flaxAllItems {
+	margin-right: 10%;
+	margin-left: 10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	row-gap: 2rem;
+	column-gap: 1.5rem;
+	align-items: stretch;
+
+}
+
+.flexItem {
+	flex: 300px 1 1;
+}
+
+img {
+	max-width: 400px;
+	max-height: 350px;
+}
+
+.nav {
+	background-color: black;
+	color: white;
+}
+
+.bigButton {
+	background-color: white;
+	border: white;
+}
+
+.container {
+	grid-template-columns: 100px 50px 100px;
+	grid-template-rows: 80px auto 80px;
+	column-gap: 10px;
+	row-gap: 15px;
+}
+
+/* עמוד סל קניות */
+.basketItem {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: antiquewhite;
+	width: 50%;
+}
+
+.imgIn {
+	width: 60%;
+}
+
+/* //הטופס הוספה */
+.formAdd {
+	width: 250px;
+	margin: auto;
+	margin-top: 2%;
+
+}
+
+
+#deletAll {
+	position: absolute;
+	bottom: 0;
+	margin-right: 43%;
+}
+.titles{
+	margin-top: 5%;
+	margin-bottom: 3%;
+	text-align: center;
+	font-family: Segoe Print;
+	font-size: 500%;
+	font-style: italic;
+	color: #17C3B2;
+}

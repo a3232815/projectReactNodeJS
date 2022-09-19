@@ -1,0 +1,29 @@
+.bigImg {
+    width: 50%;
+    height: 40pc;
+    float: right;
+}
+
+.logo {
+    /* height: 30pc; */
+    width: 100%;
+    margin-right: 10%;
+    margin-top: 30%;
+}
+
+
+
+.nextImg {
+    float: left;
+    width: 50%;
+    height: 40pc;
+    font-size: 100px;
+    background-color: white;
+}
+
+.down {
+    background-color: rgb(237, 252, 215);
+    text-align: center;
+    padding-bottom: 16%;
+
+}
