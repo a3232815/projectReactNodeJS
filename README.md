@@ -9,4 +9,7 @@ node index
 
 note: if nodeJS not running, react project will throw errow
 
+write the command: npm i
+
 Then enter the folder "react" and run with the command: npm start
+"# react_and_nodeJS_project" 
